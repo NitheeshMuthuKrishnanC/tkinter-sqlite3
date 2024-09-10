@@ -8,7 +8,7 @@ window = Tk()
 window.title("Employee Management System")
 window.geometry("900x500")
 window.config(bg = "#EFBC9B")
-window.iconbitmap('employee.ico')
+window.iconbitmap('./asserts/employee.ico')
 
 name = StringVar()
 age= StringVar()
